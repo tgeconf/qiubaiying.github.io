@@ -24,4 +24,7 @@
   <li>
     create webpack.config.js as the conf file to export JS file.
   </li>
+  <li>
+    npx webpack --config webpack.config.js  
+  </li>
 </ol>
