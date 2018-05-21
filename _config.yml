@@ -6,7 +6,7 @@ email: tgeconf@gmail.com
 description: "There is shadow where there is light, shadow fills the places beyond the reach of light."
 keyword: "TGE, TGE Blog, 葛彤的博客, tong ge, 葛彤"
 url: "http://tgeconf.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/tge-blog"      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/tgeconf/tgeconf.github.io.git" # you code repository
 
 # Sidebar settings
