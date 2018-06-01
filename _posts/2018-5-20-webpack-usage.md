@@ -14,8 +14,15 @@
 <h4>Warmup</h4>
 <ol>
   <li>
-    generate package.json:<br/>
+    Generate package.json:<br/>
     <pre style="background: #eee">npm init</pre>
+    then we add <i>scripts</i> in the end of package.json:
+    <pre style="background: #eee">
+      "scripts":{
+        "dev":"cross-env NODE_ENV=development webpack",
+        "opt":"cross-env NODE_ENV=production webpack"
+      }
+    </pre>
   </li>
   <li>
     install webpack as the dependent package<br/>
@@ -28,6 +35,7 @@
     create webpack.config.js as the conf file to export JS file.
   </li>
   <li>
+    bundle JS files:
     <pre style="background: #eee">npx webpack --config webpack.config.js</pre>
   </li>
 </ol>
