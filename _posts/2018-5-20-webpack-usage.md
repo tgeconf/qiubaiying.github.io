@@ -1,10 +1,15 @@
+<style>
+  p{
+    margin: .5em;
+  }
+</style>
 <h2>What is Webpack</h2> 
 <p>Webpack is a <b>module hundler</b>. It can be used to bundle your scripts, images, or styles.
 
 <h2>Start to Use Webpack</h2>
 <p><b>Installation</b>
 <p>using npm to install
-<pre style="background: #f00">npm install -g webpack</pre>
+<pre style="background: #eee">npm install -g webpack</pre>
 
 <p><b>Warmup</b>
 <ol>
