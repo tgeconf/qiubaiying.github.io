@@ -7,11 +7,11 @@
 <p>Webpack is a <b>module hundler</b>. It can be used to bundle your scripts, images, or styles.
 
 <h2>Start to Use Webpack</h2>
-<h4>Bundle JS files</h4>
+<h4>Installation</h4>
 <p>using npm to install
 <pre style="background: #eee">npm install -g webpack</pre>
 
-<h4>Bun</h4>
+<h4>Bundle JS files</h4>
 <ol>
   <li>
     Generate package.json:<br/>
