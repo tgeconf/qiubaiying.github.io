@@ -16,7 +16,7 @@
   <li>
     Generate package.json:<br/>
     <pre style="background: #eee">npm init</pre>
-    then we add <i>scripts</i> in the end of package.json:
+    then we add <b><i>scripts</i></b> in the end of package.json:
     <pre style="background: #eee">
       "scripts":{
         "dev":"cross-env NODE_ENV=development webpack",
@@ -29,13 +29,49 @@
     <pre style="background: #eee">npm install --save-dev webpack</pre>
   </li>
   <li>
-    create two folders "src" and "public", "src" is for the JS modules we are going to write and "public" is for the packed JS file.
+    create two folders <b><i>src</i></b> and <b><i>public</i></b>, <b><i>src</i></b> is for the JS modules we are going to write and <b><i>public</i></b> is for the packed JS file.
   </li>
   <li>
-    create webpack.config.js as the conf file to export JS file.
+    create <b><i>webpack.config.js</i></b> as the conf file to export JS file. This is my <b><i>webpack.config.js</i></b>:
+    <pre style="background: #eee">
+      var webpack = require('webpack');
+      var path = require('path');
+      var libraryName = 'TgeArmory';
+      var outputFile = libraryName + '.js';
+
+      var env = process.env.NODE_ENV;
+      var mode = env;
+
+      if (env === 'development') {
+        outputFile = libraryName + '.js';
+      } else if (env === 'production'){
+        outputFile = libraryName + '.min.js';
+      }
+
+      var config = {
+        mode: mode,
+        entry: __dirname + '/src/main.js',
+        devtool: 'source-map',
+        output: {
+          path: __dirname + '/public',
+          filename: outputFile,
+          library: libraryName,
+          libraryTarget: 'umd',
+          umdNamedDefine: true
+        }
+        // module: { ... },
+        // resolve: { ... },
+        // plugins: plugins
+      }
+
+      module.exports = config;
+    </pre>
   </li>
   <li>
-    bundle JS files:
-    <pre style="background: #eee">npx webpack --config webpack.config.js</pre>
+    Using the scripts we added in <b><i>package.json</i></b>, we can bundle JS files by running:
+    <pre style="background: #eee">npm run opt</pre>
+    to create compressed version, and use:
+    <pre style="background: #eee">npm run dev</pre>
+    to create uncompressed version.
   </li>
 </ol>
