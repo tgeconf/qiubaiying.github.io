@@ -6,7 +6,7 @@ Here we listed 7 principles for better UX design of webpage.
 	</li>
 	<li>
 		<h4>Everything is clear</h4>
-		<img src="./20180601fig1.jpg" />
+		<img src="./img/2018/6/1/1.jpg" />
 		<p>Both data and content of the webpage should serve the experience. What kind of experience should they present is the true business of the designers.</p>
 	</li>
 </ol>
