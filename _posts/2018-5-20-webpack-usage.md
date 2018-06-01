@@ -4,7 +4,7 @@
 <h2>Start to Use Webpack</h2>
 <p><b>Installation</b>
 <p>using npm to install
-<pre>npm install -g webpack</pre>
+<pre style="background: #f00">npm install -g webpack</pre>
 
 <p><b>Warmup</b>
 <ol>
