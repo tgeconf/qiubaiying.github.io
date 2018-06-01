@@ -1,4 +1,4 @@
-#How to use Webpack to combine multiple JS files
+<h1>How to use Webpack to combine multiple JS files</h1>
 
 <h2>What is Webpack</h2> 
 <p>Webpack is a <b>module hundler</b>
