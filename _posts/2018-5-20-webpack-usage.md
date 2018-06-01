@@ -7,19 +7,19 @@
 <p>Webpack is a <b>module hundler</b>. It can be used to bundle your scripts, images, or styles.
 
 <h2>Start to Use Webpack</h2>
-<p><b>Installation</b>
+<h4>Installation</h4>
 <p>using npm to install
 <pre style="background: #eee">npm install -g webpack</pre>
 
-<p><b>Warmup</b>
+<h4>Warmup</h4>
 <ol>
   <li>
     generate package.json:<br/>
-    npm init
+    <pre style="background: #eee">npm init</pre>
   </li>
   <li>
     install webpack as the dependent package<br/>
-    npm install --save-dev webpack
+    <pre style="background: #eee">npm install --save-dev webpack</pre>
   </li>
   <li>
     create two folders "src" and "public", "src" is for the JS modules we are going to write and "public" is for the packed JS file.
@@ -28,6 +28,6 @@
     create webpack.config.js as the conf file to export JS file.
   </li>
   <li>
-    npx webpack --config webpack.config.js  
+    <pre style="background: #eee">npx webpack --config webpack.config.js</pre>
   </li>
 </ol>
