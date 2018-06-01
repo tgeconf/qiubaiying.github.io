@@ -1,4 +1,4 @@
-<h1>How to use Webpack to combine multople JS files</h1>
+<h1>How to use Webpack to combine multiple JS files</h1>
 
 <h2>What is Webpack</h2> 
 <p>Webpack is a <b>module hundler</b>
@@ -6,7 +6,7 @@
 <h2>Start to Use Webpack</h2>
 <p><b>Installation</b>
 <p>using npm to install
-<p>&nbsp&nbspnpm install -g webpack
+<p>npm install -g webpack
 
 <p><b>Warmup</b>
 <ol>
