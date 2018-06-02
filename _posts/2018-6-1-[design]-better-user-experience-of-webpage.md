@@ -15,4 +15,5 @@ Here we listed 7 principles for better UX design of webpage.
 		<p>Highlight the most important button and provide visual guidance to it.</p>
 		<p>Enable to hide/show extra functions.</p>
 		<p>Consistency is also important. </p>
+	</li>
 </ol>
