@@ -1,3 +1,11 @@
+<style>
+	td{
+		padding: .2em;
+		text-align: center;
+		border: none;
+		border-bottom: 1px solid #dedede;
+	}
+</style>
 <p>Angular, React, 和Vue，这三者所面向的均是Web应用。
 <p>整体来讲，Angular所使用的领域相对窄一些，React可以拓展到服务端，移动端的Native部分，而Vue因为比较轻量，还能用于业务场景非常轻的页面中。
 <p>我们在Web应用中需要解决的问题分为三类：
@@ -29,4 +37,80 @@
 	</li>
 </ol>
 
-<p>总的来讲，Angular是一个大而全的MVC框架，提供了所需要的各种功能，如模块管理、双向绑定等。而React则是利用virtual DOM在性能上具有优势。Vue是渐进式框架，简单、易上手、配置设施齐全，有中文文档。同时Vue也是用了Virtual DOM，Reactive及组件化思想，可以让我们集中精力编写应用而不是应用的性能。
+<p>网上的一张对三者的调查表:</p>
+<table>
+	<tr>
+		<td>衡量指标</td>
+		<td>Angular</td>
+		<td>React</td>
+		<td>Vue.js</td>
+	</tr>
+	<tr>
+		<td>稳定</td>
+		<td>是</td>
+		<td>是</td>
+		<td>是</td>
+	</tr>
+	<tr>
+		<td>强大社区</td>
+		<td>是</td>
+		<td>是</td>
+		<td>不够大</td>
+	</tr>
+	<tr>
+		<td>后盾</td>
+		<td>Google</td>
+		<td>Facebook</td>
+		<td>Laravel和阿里</td>
+	</tr>
+	<tr>
+		<td>文档清晰</td>
+		<td>是</td>
+		<td>是</td>
+		<td>是</td>
+	</tr>
+	<tr>
+		<td>易上手</td>
+		<td>一般</td>
+		<td>一般</td>
+		<td>是</td>
+	</tr>
+	<tr>
+		<td>可以集成Bootstrap</td>
+		<td>是</td>
+		<td>是</td>
+		<td>是</td>
+	</tr>
+	<tr>
+		<td>大小</td>
+		<td>566K</td>
+		<td>139K</td>
+		<td>58.8K</td>
+	</tr>
+	<tr>
+		<td>易复用</td>
+		<td>是</td>
+		<td>只有CSS</td>
+		<td>是，HTML和CSS</td>
+	</tr>
+	<tr>
+		<td>编码速度</td>
+		<td>慢</td>
+		<td>一般</td>
+		<td>快</td>
+	</tr>
+	<tr>
+		<td>反应速度</td>
+		<td>一般</td>
+		<td>快</td>
+		<td>快</td>
+	</tr>
+	<tr>
+		<td>基于组件</td>
+		<td>是</td>
+		<td>是</td>
+		<td>是</td>
+	</tr>
+</table>
+
+<p>总的来讲，Angular是一个大而全的MVC框架，提供了所需要的各种功能，如模块管理、双向绑定等。而React则是利用virtual DOM在性能上具有优势。Vue是渐进式框架，简单、易上手、配置设施齐全，有中文文档。同时Vue也是用了Virtual DOM，Reactive及组件化思想，可以让我们集中精力编写应用而不是应用的性能。</p>
