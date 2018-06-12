@@ -1,5 +1,5 @@
 <style>
-	td{
+	td ! important{
 		padding: .2em;
 		text-align: center;
 		border: none;
