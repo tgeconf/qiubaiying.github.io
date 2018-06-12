@@ -1,11 +1,3 @@
-<style>
-	td ! important{
-		padding: .2em;
-		text-align: center;
-		border: none;
-		border-bottom: 1px solid #dedede;
-	}
-</style>
 <p>Angular, React, 和Vue，这三者所面向的均是Web应用。
 <p>整体来讲，Angular所使用的领域相对窄一些，React可以拓展到服务端，移动端的Native部分，而Vue因为比较轻量，还能用于业务场景非常轻的页面中。
 <p>我们在Web应用中需要解决的问题分为三类：
